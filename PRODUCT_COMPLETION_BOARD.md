@@ -389,13 +389,13 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Workflow Service
 
-- [ ] Implement workflow template model
-- [ ] Implement workflow instance model
-- [ ] Implement task assignment model
-- [ ] Implement approval workflow state transitions
-- [ ] Implement onboarding workflow template
-- [ ] Implement offboarding workflow template
-- [ ] Implement role-change workflow template
+- [x] Implement workflow template model
+- [x] Implement workflow instance model
+- [x] Implement task assignment model
+- [x] Implement approval workflow state transitions
+- [x] Implement onboarding workflow template
+- [x] Implement offboarding workflow template
+- [x] Implement role-change workflow template
 - [ ] Publish workflow instance events
 
 ### Leave Service
@@ -927,7 +927,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Add unit test framework to React app
 - [x] Create unit tests for People Core lifecycle state transitions
 - [x] Create unit tests for Organization hierarchy validation
-- [ ] Create unit tests for Workflow state transitions
+- [x] Create unit tests for Workflow state transitions
 - [ ] Create unit tests for Leave balance calculations
 - [ ] Create unit tests for Payroll Prep calculations
 - [ ] Create unit tests for Developer Intelligence bus-factor calculation
@@ -1227,6 +1227,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Remove unused feature entitlement definitions
 - [ ] Remove deprecated workflow templates after migration
 - [ ] Remove inactive sandbox tenants after retention period
+
 
 
 
