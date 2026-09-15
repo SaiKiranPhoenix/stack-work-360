@@ -1,0 +1,33 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Java / Gradle
+.gradle/
+build/
+out/
+target/
+
+# Node / React
+node_modules/
+dist/
+coverage/
+.vite/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.local
+*.key
+*.pem
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-data/
