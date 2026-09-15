@@ -428,12 +428,12 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Payroll Prep Service
 
-- [ ] Implement payroll period model
-- [ ] Implement payroll input model
-- [ ] Implement salary adjustment model
+- [x] Implement payroll period model
+- [x] Implement payroll input model
+- [x] Implement salary adjustment model
 - [ ] Implement leave-to-payroll adjustment consumer
-- [ ] Implement payroll approval workflow integration
-- [ ] Implement payroll export generation
+- [x] Implement payroll approval workflow integration
+- [x] Implement payroll export generation
 - [ ] Publish payroll period events
 
 ### Developer Intelligence Service
@@ -931,7 +931,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Leave balance calculations
 - [x] Create unit tests for document access and retention rules
 - [x] Create unit tests for Helpdesk ticket lifecycle rules
-- [ ] Create unit tests for Payroll Prep calculations
+- [x] Create unit tests for Payroll Prep calculations
 - [ ] Create unit tests for Developer Intelligence bus-factor calculation
 - [ ] Create unit tests for Risk Engine rules
 - [ ] Create unit tests for authorization policies
