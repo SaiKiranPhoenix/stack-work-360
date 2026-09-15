@@ -410,11 +410,11 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Document Service
 
-- [ ] Implement document metadata model
-- [ ] Implement secure object reference model
-- [ ] Implement policy acknowledgement model
-- [ ] Implement document retention policy model
-- [ ] Implement restricted document access checks
+- [x] Implement document metadata model
+- [x] Implement secure object reference model
+- [x] Implement policy acknowledgement model
+- [x] Implement document retention policy model
+- [x] Implement restricted document access checks
 - [ ] Publish document audit events
 
 ### Helpdesk Service
@@ -929,6 +929,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Organization hierarchy validation
 - [x] Create unit tests for Workflow state transitions
 - [x] Create unit tests for Leave balance calculations
+- [x] Create unit tests for document access and retention rules
 - [ ] Create unit tests for Payroll Prep calculations
 - [ ] Create unit tests for Developer Intelligence bus-factor calculation
 - [ ] Create unit tests for Risk Engine rules
@@ -1227,6 +1228,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Remove unused feature entitlement definitions
 - [ ] Remove deprecated workflow templates after migration
 - [ ] Remove inactive sandbox tenants after retention period
+
 
 
 
