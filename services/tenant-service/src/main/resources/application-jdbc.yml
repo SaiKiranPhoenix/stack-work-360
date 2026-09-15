@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: ${TENANT_DB_URL:jdbc:postgresql://localhost:5432/stackwork_tenant}
+    username: ${TENANT_DB_USERNAME:stackwork}
+    password: ${TENANT_DB_PASSWORD:stackwork}
+  flyway:
+    enabled: true
+    locations: classpath:db/migration

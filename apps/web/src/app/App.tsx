@@ -1,4 +1,5 @@
 import { Activity, Building2, GitBranch, ShieldCheck, Users } from "lucide-react";
+import { TenantAdminPage } from "../features/tenants/TenantAdminPage";
 import { DashboardCard } from "../shared/ui/DashboardCard";
 
 const modules = [
@@ -45,6 +46,8 @@ export function App() {
           <DashboardCard key={module.title} {...module} />
         ))}
       </section>
+
+      <TenantAdminPage />
     </main>
   );
 }

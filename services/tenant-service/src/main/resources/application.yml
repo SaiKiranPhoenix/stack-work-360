@@ -1,10 +1,8 @@
 spring:
   application:
     name: tenant
-  datasource:
-    url: 
-    username: 
-    password: 
+  profiles:
+    default: inmemory
   kafka:
     bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
 

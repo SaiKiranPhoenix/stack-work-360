@@ -230,6 +230,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ## Database Setup & Migrations
 
+- [x] Create Tenant Service tenants table migration
 - [ ] Create PostgreSQL database for Auth Service
 - [ ] Create PostgreSQL database for People Core Service
 - [ ] Create PostgreSQL database for Organization Service
@@ -278,7 +279,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Configure Flyway for Audit Service
 - [ ] Configure Flyway for Analytics Service
 - [ ] Configure Flyway for Integration Service
-- [ ] Configure Flyway for Tenant Service
+- [x] Configure Flyway for Tenant Service
 - [ ] Configure Flyway for Attendance Service
 - [ ] Configure Flyway for Shift Scheduling Service
 - [ ] Configure Flyway for Compensation Service
@@ -718,6 +719,8 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 ## Frontend Development
 
 - [x] Create React app shell
+- [x] Create shared frontend API request helper
+- [x] Create Tenant Admin frontend feature
 - [ ] Create route structure for employee, manager, HR, finance, security, and engineering personas
 - [x] Create design system foundation
 - [ ] Create authentication flow
@@ -1224,5 +1227,8 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Remove unused feature entitlement definitions
 - [ ] Remove deprecated workflow templates after migration
 - [ ] Remove inactive sandbox tenants after retention period
+
+
+
 
 

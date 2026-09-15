@@ -46,6 +46,34 @@ public final class Tenant {
         this.updatedAt = Objects.requireNonNull(updatedAt, "updated at is required");
     }
 
+    public static Tenant restore(
+            UUID id,
+            String slug,
+            String displayName,
+            TenantStatus status,
+            TenantPlan plan,
+            DataResidencyRegion dataResidencyRegion,
+            int retentionDays,
+            Set<String> enabledFeatures,
+            Map<String, String> configuration,
+            Instant createdAt,
+            Instant updatedAt
+    ) {
+        return new Tenant(
+                id,
+                slug,
+                displayName,
+                status,
+                plan,
+                dataResidencyRegion,
+                retentionDays,
+                nullToEmpty(enabledFeatures),
+                nullToEmpty(configuration),
+                createdAt,
+                updatedAt
+        );
+    }
+
     public static Tenant provision(
             String slug,
             String displayName,

@@ -9,9 +9,11 @@ import java.util.Optional;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 @Repository
+@Profile("inmemory")
 public class InMemoryTenantRepository implements TenantRepository {
     private final ConcurrentMap<UUID, Tenant> tenantsById = new ConcurrentHashMap<>();
     private final ConcurrentMap<String, UUID> idsBySlug = new ConcurrentHashMap<>();
