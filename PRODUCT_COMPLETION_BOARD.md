@@ -369,13 +369,13 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### People Core Service
 
-- [ ] Implement worker profile create/update APIs
-- [ ] Implement employment lifecycle state model
-- [ ] Implement employee hire command
+- [x] Implement worker profile create/update APIs
+- [x] Implement employment lifecycle state model
+- [x] Implement employee hire command
 - [ ] Implement employee role-change command
-- [ ] Implement employee offboarding command
+- [x] Implement employee offboarding command
 - [ ] Publish worker lifecycle events
-- [ ] Implement employee search API
+- [x] Implement employee search API
 - [ ] Implement field-level access controls for sensitive employee fields
 
 ### Organization Service
@@ -925,7 +925,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 - [ ] Add unit test framework to Spring Boot template
 - [ ] Add unit test framework to React app
-- [ ] Create unit tests for People Core lifecycle state transitions
+- [x] Create unit tests for People Core lifecycle state transitions
 - [ ] Create unit tests for Organization hierarchy validation
 - [ ] Create unit tests for Workflow state transitions
 - [ ] Create unit tests for Leave balance calculations
@@ -1227,6 +1227,8 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Remove unused feature entitlement definitions
 - [ ] Remove deprecated workflow templates after migration
 - [ ] Remove inactive sandbox tenants after retention period
+
+
 
 
 
