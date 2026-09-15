@@ -72,4 +72,22 @@ class TenantTest {
         tenant.reactivate();
         assertEquals(TenantStatus.ACTIVE, tenant.status());
     }
+
+    @Test
+    void assignsFeatureFlagsWithoutChangingPlan() {
+        Tenant tenant = Tenant.provision(
+                "feature-co",
+                "Feature Co",
+                TenantPlan.STARTUP,
+                DataResidencyRegion.US,
+                365,
+                Set.of(),
+                Map.of()
+        );
+
+        tenant.assignFeatures(Set.of("risk-engine", "developer-intelligence"));
+
+        assertEquals(TenantPlan.STARTUP, tenant.plan());
+        assertEquals(Set.of("risk-engine", "developer-intelligence"), tenant.enabledFeatures());
+    }
 }

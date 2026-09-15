@@ -76,4 +76,25 @@ class TenantApplicationServiceTest {
         assertEquals(DataResidencyRegion.INDIA, updated.dataResidencyRegion());
         assertEquals(730, updated.retentionDays());
     }
+
+    @Test
+    void assignsFeatureFlagsAndResolvesEntitlements() {
+        Tenant tenant = service.create(new CreateTenantCommand(
+                "entitled-co",
+                "Entitled Co",
+                TenantPlan.STARTUP,
+                DataResidencyRegion.US,
+                365,
+                Set.of(),
+                Map.of()
+        ));
+
+        service.assignFeatures(tenant.id(), new AssignTenantFeaturesCommand(Set.of("risk-engine")));
+        var entitlements = service.entitlements(tenant.id());
+
+        assertEquals(TenantPlan.STARTUP, entitlements.plan());
+        assertEquals(true, entitlements.entitledTo("risk-engine"));
+        assertEquals(true, entitlements.entitledTo("people-core"));
+        assertEquals(Set.of("risk-engine"), entitlements.assignedFeatures());
+    }
 }

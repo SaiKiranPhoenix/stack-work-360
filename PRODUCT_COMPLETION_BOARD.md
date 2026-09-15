@@ -499,8 +499,8 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Implement tenant update API
 - [x] Implement tenant lifecycle state model
 - [x] Implement tenant configuration API
-- [ ] Implement tenant entitlement lookup
-- [ ] Implement tenant feature flag assignment API
+- [x] Implement tenant entitlement lookup
+- [x] Implement tenant feature flag assignment API
 - [x] Implement tenant data residency settings
 - [x] Implement tenant retention settings
 - [ ] Publish tenant lifecycle events

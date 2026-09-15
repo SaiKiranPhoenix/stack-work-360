@@ -117,6 +117,12 @@ public final class Tenant {
         this.updatedAt = Instant.now();
     }
 
+    public void assignFeatures(Set<String> enabledFeatures) {
+        ensureMutable();
+        this.enabledFeatures = Set.copyOf(nullToEmpty(enabledFeatures));
+        this.updatedAt = Instant.now();
+    }
+
     public void suspend() {
         ensureMutable();
         this.status = TenantStatus.SUSPENDED;

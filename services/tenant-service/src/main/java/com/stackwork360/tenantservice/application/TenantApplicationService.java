@@ -1,10 +1,13 @@
 package com.stackwork360.tenantservice.application;
 
 import com.stackwork360.tenantservice.domain.Tenant;
+import com.stackwork360.tenantservice.domain.TenantEntitlements;
+import com.stackwork360.tenantservice.domain.TenantPlan;
 import com.stackwork360.tenantservice.domain.TenantRepository;
 import com.stackwork360.web.ResourceNotFoundException;
 import java.util.List;
 import java.util.Locale;
+import java.util.Set;
 import java.util.UUID;
 import org.springframework.stereotype.Service;
 
@@ -58,6 +61,20 @@ public class TenantApplicationService {
         return tenantRepository.save(tenant);
     }
 
+    public Tenant assignFeatures(UUID tenantId, AssignTenantFeaturesCommand command) {
+        Tenant tenant = get(tenantId);
+        tenant.assignFeatures(command.enabledFeatures());
+        return tenantRepository.save(tenant);
+    }
+
+    public TenantEntitlements entitlements(UUID tenantId) {
+        Tenant tenant = get(tenantId);
+        Set<String> planFeatures = planFeatures(tenant.plan());
+        Set<String> entitledFeatures = new java.util.TreeSet<>(planFeatures);
+        entitledFeatures.addAll(tenant.enabledFeatures());
+        return new TenantEntitlements(tenant.plan(), Set.copyOf(entitledFeatures), tenant.enabledFeatures());
+    }
+
     public Tenant get(UUID tenantId) {
         return tenantRepository.findById(tenantId)
                 .orElseThrow(() -> new ResourceNotFoundException("tenant not found"));
@@ -65,5 +82,39 @@ public class TenantApplicationService {
 
     public List<Tenant> list() {
         return tenantRepository.findAll();
+    }
+
+    private static Set<String> planFeatures(TenantPlan plan) {
+        return switch (plan) {
+            case FREE_TRIAL -> Set.of("people-core", "organization", "leave", "document", "helpdesk");
+            case STARTUP -> Set.of(
+                    "people-core",
+                    "organization",
+                    "workflow",
+                    "leave",
+                    "document",
+                    "helpdesk",
+                    "payroll-prep",
+                    "notification",
+                    "analytics"
+            );
+            case ENTERPRISE -> Set.of(
+                    "people-core",
+                    "organization",
+                    "workflow",
+                    "leave",
+                    "document",
+                    "helpdesk",
+                    "payroll-prep",
+                    "developer-intelligence",
+                    "risk-engine",
+                    "notification",
+                    "audit",
+                    "analytics",
+                    "integration",
+                    "access-governance",
+                    "workforce-planning"
+            );
+        };
     }
 }

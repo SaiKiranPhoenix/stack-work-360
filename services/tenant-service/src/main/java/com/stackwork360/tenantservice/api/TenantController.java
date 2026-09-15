@@ -1,5 +1,6 @@
 package com.stackwork360.tenantservice.api;
 
+import com.stackwork360.tenantservice.application.AssignTenantFeaturesCommand;
 import com.stackwork360.tenantservice.application.CreateTenantCommand;
 import com.stackwork360.tenantservice.application.TenantApplicationService;
 import com.stackwork360.tenantservice.application.UpdateTenantCommand;
@@ -77,5 +78,21 @@ public class TenantController {
     @PatchMapping("/{tenantId}/reactivate")
     public TenantResponse reactivate(@PathVariable UUID tenantId) {
         return TenantResponse.from(tenantApplicationService.reactivate(tenantId));
+    }
+
+    @PutMapping("/{tenantId}/features")
+    public TenantResponse assignFeatures(
+            @PathVariable UUID tenantId,
+            @Valid @RequestBody AssignTenantFeaturesRequest request
+    ) {
+        return TenantResponse.from(tenantApplicationService.assignFeatures(
+                tenantId,
+                new AssignTenantFeaturesCommand(request.enabledFeatures())
+        ));
+    }
+
+    @GetMapping("/{tenantId}/entitlements")
+    public TenantEntitlementsResponse entitlements(@PathVariable UUID tenantId) {
+        return TenantEntitlementsResponse.from(tenantApplicationService.entitlements(tenantId));
     }
 }
