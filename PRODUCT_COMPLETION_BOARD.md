@@ -438,12 +438,12 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Developer Intelligence Service
 
-- [ ] Implement repository model
-- [ ] Implement service ownership model
-- [ ] Implement developer access request model
-- [ ] Implement Git provider webhook ingestion adapter
-- [ ] Implement code ownership map API
-- [ ] Implement bus-factor calculation v1
+- [x] Implement repository model
+- [x] Implement service ownership model
+- [x] Implement developer access request model
+- [x] Implement Git provider webhook ingestion adapter
+- [x] Implement code ownership map API
+- [x] Implement bus-factor calculation v1
 - [ ] Publish developer ownership events
 - [ ] Publish developer access events
 
@@ -932,7 +932,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for document access and retention rules
 - [x] Create unit tests for Helpdesk ticket lifecycle rules
 - [x] Create unit tests for Payroll Prep calculations
-- [ ] Create unit tests for Developer Intelligence bus-factor calculation
+- [x] Create unit tests for Developer Intelligence bus-factor calculation
 - [ ] Create unit tests for Risk Engine rules
 - [ ] Create unit tests for authorization policies
 - [x] Create unit tests for Tenant lifecycle rules
