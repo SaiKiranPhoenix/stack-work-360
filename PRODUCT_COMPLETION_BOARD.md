@@ -507,13 +507,13 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Attendance Service
 
-- [ ] Implement attendance entry model
-- [ ] Implement check-in API
-- [ ] Implement check-out API
-- [ ] Implement manual correction workflow
-- [ ] Implement remote work entry model
-- [ ] Implement overtime detection
-- [ ] Implement attendance anomaly detection
+- [x] Implement attendance entry model
+- [x] Implement check-in API
+- [x] Implement check-out API
+- [x] Implement manual correction workflow
+- [x] Implement remote work entry model
+- [x] Implement overtime detection
+- [x] Implement attendance anomaly detection
 - [ ] Publish attendance events
 
 ### Shift Scheduling Service
@@ -936,7 +936,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Risk Engine rules
 - [ ] Create unit tests for authorization policies
 - [x] Create unit tests for Tenant lifecycle rules
-- [ ] Create unit tests for Attendance overtime rules
+- [x] Create unit tests for Attendance overtime rules
 - [ ] Create unit tests for Shift Scheduling conflict detection
 - [ ] Create unit tests for Compensation budget impact
 - [ ] Create unit tests for Benefits eligibility rules
