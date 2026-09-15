@@ -460,11 +460,11 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Notification Service
 
-- [ ] Implement notification preference model
-- [ ] Implement email delivery adapter
-- [ ] Implement Slack or Teams delivery adapter
-- [ ] Implement in-app notification API
-- [ ] Implement notification template model
+- [x] Implement notification preference model
+- [x] Implement email delivery adapter
+- [x] Implement Slack or Teams delivery adapter
+- [x] Implement in-app notification API
+- [x] Implement notification template model
 - [ ] Implement delivery retry and DLQ handling
 
 ### Audit Service
