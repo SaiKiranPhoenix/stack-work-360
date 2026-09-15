@@ -518,12 +518,12 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Shift Scheduling Service
 
-- [ ] Implement shift template model
-- [ ] Implement shift assignment model
-- [ ] Implement rotating schedule model
-- [ ] Implement shift swap request API
-- [ ] Implement shift conflict detection
-- [ ] Implement staffing coverage report
+- [x] Implement shift template model
+- [x] Implement shift assignment model
+- [x] Implement rotating schedule model
+- [x] Implement shift swap request API
+- [x] Implement shift conflict detection
+- [x] Implement staffing coverage report
 - [ ] Publish shift schedule events
 
 ### Compensation Service
@@ -937,7 +937,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Create unit tests for authorization policies
 - [x] Create unit tests for Tenant lifecycle rules
 - [x] Create unit tests for Attendance overtime rules
-- [ ] Create unit tests for Shift Scheduling conflict detection
+- [x] Create unit tests for Shift Scheduling conflict detection
 - [ ] Create unit tests for Compensation budget impact
 - [ ] Create unit tests for Benefits eligibility rules
 - [ ] Create unit tests for Performance review visibility
