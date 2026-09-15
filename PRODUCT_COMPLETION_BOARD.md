@@ -380,12 +380,12 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Organization Service
 
-- [ ] Implement department and team model
-- [ ] Implement reporting-line model
-- [ ] Implement location and cost-center model
-- [ ] Implement org chart read API
+- [x] Implement department and team model
+- [x] Implement reporting-line model
+- [x] Implement location and cost-center model
+- [x] Implement org chart read API
 - [ ] Publish organization structure events
-- [ ] Implement organization hierarchy validation
+- [x] Implement organization hierarchy validation
 
 ### Workflow Service
 
@@ -926,7 +926,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Add unit test framework to Spring Boot template
 - [ ] Add unit test framework to React app
 - [x] Create unit tests for People Core lifecycle state transitions
-- [ ] Create unit tests for Organization hierarchy validation
+- [x] Create unit tests for Organization hierarchy validation
 - [ ] Create unit tests for Workflow state transitions
 - [ ] Create unit tests for Leave balance calculations
 - [ ] Create unit tests for Payroll Prep calculations
@@ -1227,6 +1227,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Remove unused feature entitlement definitions
 - [ ] Remove deprecated workflow templates after migration
 - [ ] Remove inactive sandbox tenants after retention period
+
 
 
 
