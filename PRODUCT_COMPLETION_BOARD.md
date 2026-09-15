@@ -188,7 +188,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 - [ ] Create golden Spring Boot service template
 - [ ] Create shared service metadata convention
-- [ ] Create common health, readiness, and metrics endpoints in service template
+- [x] Create common health, readiness, and metrics endpoints in service template
 - [x] Create common error response library
 - [x] Create common correlation ID propagation library
 - [x] Create common authentication and authorization helper library
@@ -494,14 +494,14 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Tenant Service
 
-- [ ] Implement tenant create API
-- [ ] Implement tenant update API
-- [ ] Implement tenant lifecycle state model
-- [ ] Implement tenant configuration API
+- [x] Implement tenant create API
+- [x] Implement tenant update API
+- [x] Implement tenant lifecycle state model
+- [x] Implement tenant configuration API
 - [ ] Implement tenant entitlement lookup
 - [ ] Implement tenant feature flag assignment API
-- [ ] Implement tenant data residency settings
-- [ ] Implement tenant retention settings
+- [x] Implement tenant data residency settings
+- [x] Implement tenant retention settings
 - [ ] Publish tenant lifecycle events
 
 ### Attendance Service
@@ -818,7 +818,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Configure API request size limits
 - [ ] Configure API timeout policy
 - [ ] Implement API idempotency key handling
-- [ ] Implement API correlation ID handling
+- [x] Implement API correlation ID handling
 - [ ] Implement API pagination standard
 - [ ] Implement API sorting and filtering standard
 - [ ] Create API deprecation policy page
@@ -930,7 +930,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Create unit tests for Developer Intelligence bus-factor calculation
 - [ ] Create unit tests for Risk Engine rules
 - [ ] Create unit tests for authorization policies
-- [ ] Create unit tests for Tenant lifecycle rules
+- [x] Create unit tests for Tenant lifecycle rules
 - [ ] Create unit tests for Attendance overtime rules
 - [ ] Create unit tests for Shift Scheduling conflict detection
 - [ ] Create unit tests for Compensation budget impact
@@ -1224,4 +1224,5 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Remove unused feature entitlement definitions
 - [ ] Remove deprecated workflow templates after migration
 - [ ] Remove inactive sandbox tenants after retention period
+
 

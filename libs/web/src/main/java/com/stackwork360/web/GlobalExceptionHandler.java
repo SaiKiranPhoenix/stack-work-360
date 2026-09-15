@@ -1,6 +1,5 @@
 package com.stackwork360.web;
 
-import jakarta.servlet.http.HttpServletRequest;
 import java.util.stream.Collectors;
 import org.slf4j.MDC;
 import org.springframework.http.HttpStatus;
@@ -24,13 +23,18 @@ public class GlobalExceptionHandler {
         return error(HttpStatus.BAD_REQUEST, "INVALID_REQUEST", exception.getMessage());
     }
 
+    @ExceptionHandler(IllegalStateException.class)
+    public ResponseEntity<ApiError> handleIllegalState(IllegalStateException exception) {
+        return error(HttpStatus.CONFLICT, "INVALID_STATE", exception.getMessage());
+    }
+
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<ApiError> handleNotFound(ResourceNotFoundException exception) {
         return error(HttpStatus.NOT_FOUND, "RESOURCE_NOT_FOUND", exception.getMessage());
     }
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<ApiError> handleUnexpected(Exception exception, HttpServletRequest request) {
+    public ResponseEntity<ApiError> handleUnexpected(Exception exception) {
         return error(HttpStatus.INTERNAL_SERVER_ERROR, "INTERNAL_ERROR", "Unexpected error processing request");
     }
 
