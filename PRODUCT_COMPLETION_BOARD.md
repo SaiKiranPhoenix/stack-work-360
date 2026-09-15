@@ -469,11 +469,11 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Audit Service
 
-- [ ] Implement append-only audit record model
+- [x] Implement append-only audit record model
 - [ ] Implement audit event consumer
-- [ ] Implement sensitive-read audit API
-- [ ] Implement audit evidence export API
-- [ ] Implement audit retention policy
+- [x] Implement sensitive-read audit API
+- [x] Implement audit evidence export API
+- [x] Implement audit retention policy
 
 ### Analytics Service
 
