@@ -449,13 +449,13 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Risk Engine Service
 
-- [ ] Implement risk rule model
-- [ ] Implement risk signal model
+- [x] Implement risk rule model
+- [x] Implement risk signal model
 - [ ] Implement worker lifecycle risk consumer
 - [ ] Implement leave risk consumer
 - [ ] Implement developer ownership risk consumer
 - [ ] Implement helpdesk risk consumer
-- [ ] Implement risk explanation API
+- [x] Implement risk explanation API
 - [ ] Publish risk signal events
 
 ### Notification Service
@@ -933,7 +933,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Helpdesk ticket lifecycle rules
 - [x] Create unit tests for Payroll Prep calculations
 - [x] Create unit tests for Developer Intelligence bus-factor calculation
-- [ ] Create unit tests for Risk Engine rules
+- [x] Create unit tests for Risk Engine rules
 - [ ] Create unit tests for authorization policies
 - [x] Create unit tests for Tenant lifecycle rules
 - [ ] Create unit tests for Attendance overtime rules
