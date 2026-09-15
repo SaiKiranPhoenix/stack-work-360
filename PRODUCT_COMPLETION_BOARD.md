@@ -400,13 +400,13 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Leave Service
 
-- [ ] Implement leave policy model
-- [ ] Implement leave balance model
-- [ ] Implement leave request API
-- [ ] Implement leave approval API
-- [ ] Implement team availability projection
+- [x] Implement leave policy model
+- [x] Implement leave balance model
+- [x] Implement leave request API
+- [x] Implement leave approval API
+- [x] Implement team availability projection
 - [ ] Publish leave request events
-- [ ] Implement leave conflict detection
+- [x] Implement leave conflict detection
 
 ### Document Service
 
@@ -928,7 +928,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for People Core lifecycle state transitions
 - [x] Create unit tests for Organization hierarchy validation
 - [x] Create unit tests for Workflow state transitions
-- [ ] Create unit tests for Leave balance calculations
+- [x] Create unit tests for Leave balance calculations
 - [ ] Create unit tests for Payroll Prep calculations
 - [ ] Create unit tests for Developer Intelligence bus-factor calculation
 - [ ] Create unit tests for Risk Engine rules
@@ -1227,6 +1227,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [ ] Remove unused feature entitlement definitions
 - [ ] Remove deprecated workflow templates after migration
 - [ ] Remove inactive sandbox tenants after retention period
+
 
 
 
