@@ -486,12 +486,12 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Integration Service
 
-- [ ] Implement connector configuration model
-- [ ] Implement webhook validation framework
-- [ ] Implement IdP connector v1
-- [ ] Implement Git provider connector v1
-- [ ] Implement notification provider connector v1
-- [ ] Implement external provider checkpointing
+- [x] Implement connector configuration model
+- [x] Implement webhook validation framework
+- [x] Implement IdP connector v1
+- [x] Implement Git provider connector v1
+- [x] Implement notification provider connector v1
+- [x] Implement external provider checkpointing
 
 ### Tenant Service
 
