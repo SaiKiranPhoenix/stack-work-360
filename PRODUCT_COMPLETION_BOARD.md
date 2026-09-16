@@ -641,14 +641,14 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Speak-Up Case Service
 
-- [ ] Implement anonymous case submission API
-- [ ] Implement case identity protection model
-- [ ] Implement restricted investigator assignment
-- [ ] Implement evidence upload metadata
-- [ ] Implement case timeline
-- [ ] Implement case status workflow
-- [ ] Implement legal hold integration
-- [ ] Implement sensitive audit logging
+- [x] Implement anonymous case submission API
+- [x] Implement case identity protection model
+- [x] Implement restricted investigator assignment
+- [x] Implement evidence upload metadata
+- [x] Implement case timeline
+- [x] Implement case status workflow
+- [x] Implement legal hold integration
+- [x] Implement sensitive audit logging
 - [ ] Publish speak-up case events
 
 ### Policy Assistant Service
@@ -947,7 +947,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Workforce Planning scenarios
 - [x] Create unit tests for Access Governance policies
 - [x] Create unit tests for Asset lifecycle state transitions
-- [ ] Create unit tests for Speak-Up case privacy rules
+- [x] Create unit tests for Speak-Up case privacy rules
 - [ ] Create unit tests for Policy Assistant refusal rules
 - [ ] Create unit tests for Manager Copilot recommendation rules
 
