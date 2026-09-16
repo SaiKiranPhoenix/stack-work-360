@@ -630,13 +630,13 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Asset Management Service
 
-- [ ] Implement asset inventory model
-- [ ] Implement laptop assignment workflow
-- [ ] Implement monitor assignment workflow
-- [ ] Implement ID card assignment workflow
-- [ ] Implement software license assignment workflow
-- [ ] Implement asset return workflow
-- [ ] Implement asset repair workflow
+- [x] Implement asset inventory model
+- [x] Implement laptop assignment workflow
+- [x] Implement monitor assignment workflow
+- [x] Implement ID card assignment workflow
+- [x] Implement software license assignment workflow
+- [x] Implement asset return workflow
+- [x] Implement asset repair workflow
 - [ ] Publish asset lifecycle events
 
 ### Speak-Up Case Service
@@ -946,7 +946,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Talent Marketplace recommendations
 - [x] Create unit tests for Workforce Planning scenarios
 - [x] Create unit tests for Access Governance policies
-- [ ] Create unit tests for Asset lifecycle state transitions
+- [x] Create unit tests for Asset lifecycle state transitions
 - [ ] Create unit tests for Speak-Up case privacy rules
 - [ ] Create unit tests for Policy Assistant refusal rules
 - [ ] Create unit tests for Manager Copilot recommendation rules
