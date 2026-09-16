@@ -549,14 +549,14 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Performance Service
 
-- [ ] Implement review cycle model
-- [ ] Implement review template model
-- [ ] Implement self-review API
-- [ ] Implement manager review API
-- [ ] Implement peer feedback API
-- [ ] Implement calibration workflow
-- [ ] Implement promotion readiness summary
-- [ ] Implement review visibility rules
+- [x] Implement review cycle model
+- [x] Implement review template model
+- [x] Implement self-review API
+- [x] Implement manager review API
+- [x] Implement peer feedback API
+- [x] Implement calibration workflow
+- [x] Implement promotion readiness summary
+- [x] Implement review visibility rules
 - [ ] Publish performance review events
 
 ### Goals and OKR Service
@@ -940,7 +940,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Shift Scheduling conflict detection
 - [x] Create unit tests for Compensation budget impact
 - [x] Create unit tests for Benefits eligibility rules
-- [ ] Create unit tests for Performance review visibility
+- [x] Create unit tests for Performance review visibility
 - [ ] Create unit tests for Goals progress scoring
 - [ ] Create unit tests for Skills Graph matching
 - [ ] Create unit tests for Talent Marketplace recommendations

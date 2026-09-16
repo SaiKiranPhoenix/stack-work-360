@@ -1,10 +1,6 @@
 spring:
   application:
     name: performance
-  datasource:
-    url: 
-    username: 
-    password: 
   kafka:
     bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
 
