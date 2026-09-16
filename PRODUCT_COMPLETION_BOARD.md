@@ -593,13 +593,13 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Talent Marketplace Service
 
-- [ ] Implement internal gig model
-- [ ] Implement project opportunity model
-- [ ] Implement mentorship opportunity model
-- [ ] Implement internal application workflow
-- [ ] Implement manager approval workflow
-- [ ] Implement opportunity recommendation API
-- [ ] Implement internal mobility history
+- [x] Implement internal gig model
+- [x] Implement project opportunity model
+- [x] Implement mentorship opportunity model
+- [x] Implement internal application workflow
+- [x] Implement manager approval workflow
+- [x] Implement opportunity recommendation API
+- [x] Implement internal mobility history
 - [ ] Publish talent marketplace events
 
 ### Workforce Planning Service
@@ -943,7 +943,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Performance review visibility
 - [x] Create unit tests for Goals progress scoring
 - [x] Create unit tests for Skills Graph matching
-- [ ] Create unit tests for Talent Marketplace recommendations
+- [x] Create unit tests for Talent Marketplace recommendations
 - [ ] Create unit tests for Workforce Planning scenarios
 - [ ] Create unit tests for Access Governance policies
 - [ ] Create unit tests for Asset lifecycle state transitions
