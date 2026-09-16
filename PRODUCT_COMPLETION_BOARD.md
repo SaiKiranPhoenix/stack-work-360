@@ -571,12 +571,12 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Learning Service
 
-- [ ] Implement learning resource model
-- [ ] Implement learning path model
-- [ ] Implement certification model
-- [ ] Implement course completion tracking
-- [ ] Implement manager-assigned learning workflow
-- [ ] Implement learning recommendation input API
+- [x] Implement learning resource model
+- [x] Implement learning path model
+- [x] Implement certification model
+- [x] Implement course completion tracking
+- [x] Implement manager-assigned learning workflow
+- [x] Implement learning recommendation input API
 - [ ] Publish learning progress events
 
 ### Skills Graph Service
