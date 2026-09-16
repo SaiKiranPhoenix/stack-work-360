@@ -561,12 +561,12 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Goals and OKR Service
 
-- [ ] Implement goal model
-- [ ] Implement objective and key result model
-- [ ] Implement goal check-in API
-- [ ] Implement team goal rollup
-- [ ] Implement goal alignment view
-- [ ] Implement progress scoring
+- [x] Implement goal model
+- [x] Implement objective and key result model
+- [x] Implement goal check-in API
+- [x] Implement team goal rollup
+- [x] Implement goal alignment view
+- [x] Implement progress scoring
 - [ ] Publish goal progress events
 
 ### Learning Service
@@ -941,7 +941,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Compensation budget impact
 - [x] Create unit tests for Benefits eligibility rules
 - [x] Create unit tests for Performance review visibility
-- [ ] Create unit tests for Goals progress scoring
+- [x] Create unit tests for Goals progress scoring
 - [ ] Create unit tests for Skills Graph matching
 - [ ] Create unit tests for Talent Marketplace recommendations
 - [ ] Create unit tests for Workforce Planning scenarios
