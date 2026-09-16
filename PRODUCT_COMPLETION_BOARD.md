@@ -616,16 +616,16 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Access Governance Service
 
-- [ ] Implement access catalog model
-- [ ] Implement access request model
-- [ ] Implement access approval policy model
-- [ ] Implement repo access workflow
-- [ ] Implement cloud access workflow
-- [ ] Implement production access workflow
-- [ ] Implement access review campaign
-- [ ] Implement access removal task generation
-- [ ] Implement orphaned access detection
-- [ ] Implement privileged access audit report
+- [x] Implement access catalog model
+- [x] Implement access request model
+- [x] Implement access approval policy model
+- [x] Implement repo access workflow
+- [x] Implement cloud access workflow
+- [x] Implement production access workflow
+- [x] Implement access review campaign
+- [x] Implement access removal task generation
+- [x] Implement orphaned access detection
+- [x] Implement privileged access audit report
 - [ ] Publish access governance events
 
 ### Asset Management Service
@@ -945,7 +945,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Skills Graph matching
 - [x] Create unit tests for Talent Marketplace recommendations
 - [x] Create unit tests for Workforce Planning scenarios
-- [ ] Create unit tests for Access Governance policies
+- [x] Create unit tests for Access Governance policies
 - [ ] Create unit tests for Asset lifecycle state transitions
 - [ ] Create unit tests for Speak-Up case privacy rules
 - [ ] Create unit tests for Policy Assistant refusal rules
