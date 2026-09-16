@@ -604,14 +604,14 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Workforce Planning Service
 
-- [ ] Implement headcount plan model
-- [ ] Implement hiring plan model
-- [ ] Implement workforce scenario model
-- [ ] Implement workforce cost simulator
-- [ ] Implement team capacity model
-- [ ] Implement location expansion scenario
-- [ ] Implement contractor-to-full-time conversion scenario
-- [ ] Implement restructuring scenario
+- [x] Implement headcount plan model
+- [x] Implement hiring plan model
+- [x] Implement workforce scenario model
+- [x] Implement workforce cost simulator
+- [x] Implement team capacity model
+- [x] Implement location expansion scenario
+- [x] Implement contractor-to-full-time conversion scenario
+- [x] Implement restructuring scenario
 - [ ] Publish workforce plan events
 
 ### Access Governance Service
@@ -944,7 +944,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Goals progress scoring
 - [x] Create unit tests for Skills Graph matching
 - [x] Create unit tests for Talent Marketplace recommendations
-- [ ] Create unit tests for Workforce Planning scenarios
+- [x] Create unit tests for Workforce Planning scenarios
 - [ ] Create unit tests for Access Governance policies
 - [ ] Create unit tests for Asset lifecycle state transitions
 - [ ] Create unit tests for Speak-Up case privacy rules
