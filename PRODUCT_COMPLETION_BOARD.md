@@ -581,14 +581,14 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Skills Graph Service
 
-- [ ] Implement skill taxonomy model
-- [ ] Implement worker skill profile model
-- [ ] Implement skill evidence model
-- [ ] Implement skill endorsement model
-- [ ] Implement certification-to-skill mapping
-- [ ] Implement project-to-skill mapping
-- [ ] Implement skill gap query API
-- [ ] Implement succession skill coverage API
+- [x] Implement skill taxonomy model
+- [x] Implement worker skill profile model
+- [x] Implement skill evidence model
+- [x] Implement skill endorsement model
+- [x] Implement certification-to-skill mapping
+- [x] Implement project-to-skill mapping
+- [x] Implement skill gap query API
+- [x] Implement succession skill coverage API
 - [ ] Publish skills evidence events
 
 ### Talent Marketplace Service
@@ -942,7 +942,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Benefits eligibility rules
 - [x] Create unit tests for Performance review visibility
 - [x] Create unit tests for Goals progress scoring
-- [ ] Create unit tests for Skills Graph matching
+- [x] Create unit tests for Skills Graph matching
 - [ ] Create unit tests for Talent Marketplace recommendations
 - [ ] Create unit tests for Workforce Planning scenarios
 - [ ] Create unit tests for Access Governance policies
