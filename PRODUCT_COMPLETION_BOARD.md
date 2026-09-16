@@ -539,12 +539,12 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 
 ### Benefits Service
 
-- [ ] Implement benefit plan model
-- [ ] Implement employee enrollment model
-- [ ] Implement eligibility rules
-- [ ] Implement open enrollment workflow
-- [ ] Implement benefit change request API
-- [ ] Implement benefits usage summary
+- [x] Implement benefit plan model
+- [x] Implement employee enrollment model
+- [x] Implement eligibility rules
+- [x] Implement open enrollment workflow
+- [x] Implement benefit change request API
+- [x] Implement benefits usage summary
 - [ ] Publish benefits enrollment events
 
 ### Performance Service
@@ -939,7 +939,7 @@ Protocol: Update this file whenever implementation work completes. Checked tasks
 - [x] Create unit tests for Attendance overtime rules
 - [x] Create unit tests for Shift Scheduling conflict detection
 - [x] Create unit tests for Compensation budget impact
-- [ ] Create unit tests for Benefits eligibility rules
+- [x] Create unit tests for Benefits eligibility rules
 - [ ] Create unit tests for Performance review visibility
 - [ ] Create unit tests for Goals progress scoring
 - [ ] Create unit tests for Skills Graph matching
